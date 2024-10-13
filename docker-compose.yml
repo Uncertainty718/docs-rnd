@@ -5,6 +5,6 @@ services:
     ports:
       - "9000:8000"
     volumes:
-      - ./:/docs
+      - ./mkdocs-material:/docs
     stdin_open: true
     tty: true
