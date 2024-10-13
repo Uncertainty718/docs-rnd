@@ -1,0 +1,24 @@
+site_name: Gosht Внутренняя документация
+docs_dir: docs
+theme:
+  name: "material"
+  language: ru
+
+nav:
+  - История компании: history.md
+  - Рестораны:
+      - Стандарты обслуживания: restaurants/standarts.md
+      - Инструкции по работе с оборудованием: restaurants/instructions.md
+      - График работы / Пересменки: restaurants/workflow.md
+      - Обоснование стоимости: restaurants/pricing.md
+  - Донерные:
+      - Стандарты обслуживания: doners/standarts.md
+      - Инструкции по работе с оборудованием: doners/instructions.md
+      - График работы / Пересменки: doners/workflow.md
+      - Обоснование стоимости: doners/pricing.md
+  - Бургерные:
+      - Стандарты обслуживания: burgers/standarts.md
+      - Инструкции по работе с оборудованием: burgers/instructions.md
+      - График работы / Пересменки: burgers/workflow.md
+      - Обоснование стоимости: burgers/pricing.md
+  - Частые вопросы: faq.md
